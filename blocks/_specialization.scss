@@ -1,0 +1,78 @@
+.specialization {
+    .specialization-container {
+        margin: 140px 0;
+        .specialization-container_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .specialization-container_button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .filter {
+            display: flex;
+            max-width: 1440px;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            margin: 30px 0;
+        }
+
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 60px 316px;
+        }
+
+        .card {
+            width: 384px;
+            height: 332px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 30px;
+
+            .card_logo {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 15px;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 27px;
+
+                a {
+                    color: #49AD09;
+                    text-decoration: underline;
+                }
+
+                a:focus {
+                    color: #000;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .anime {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        .hide {
+            display: none;
+        }
+    }
+}

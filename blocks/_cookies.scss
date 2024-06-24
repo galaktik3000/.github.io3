@@ -1,0 +1,31 @@
+.cookies {
+    position: fixed;
+    z-index: 100;
+    left: 2rem;
+    bottom: 2rem;
+    padding: 16px;
+    max-width: 416px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(75, 75, 75, 0.8);
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .cookies__btn {
+        cursor: pointer;
+        background-color: rgb(0, 0, 0, 0.5);
+        padding: 10px 24px;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .cookies__link {
+        text-decoration: underline;
+        color: rgb(53, 250, 53);
+    }
+}

@@ -1,0 +1,92 @@
+.testimonials {
+    .testimonials-container {
+        .testimonials-container_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .container {
+            background-color: #fff;
+            margin: 183px 135px 156px 135px;
+
+            .items_buttons {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+            }
+
+            .itc-slider-wrapper {
+                overflow: hidden;
+                height: 407px;
+                background-color: #fff;
+            }
+
+            .itc-slider-transition-none {
+                transition: none;
+            }
+
+            .itc-slider-btn {
+                width: 60px;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+
+            .itc-slider {
+                max-width: 1440px;
+            }
+
+            .itc-slider-items {
+                background-color: #fff;
+                max-width: 1440px;
+                display: flex;
+                transition: transform 0.5s ease;
+                will-change: transform;
+                gap: 15px;
+            }
+
+            .itc-slider-item {
+                flex: 0 0 33%;
+                max-width: 1440px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+                user-select: none;
+                will-change: transform;
+
+                .item_test {
+                    width: 380px;
+                    height: 282px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    text-align: left;
+                    gap: 20px;
+                    padding: 40px 24px 40px 47px;
+
+                    p {
+                        font-size: 16px;
+                        font-family: "Inter";
+                        font-weight: 400;
+                        line-height: 30px;
+                    }
+                }
+
+                img {
+                    width: 101px;
+                    height: 17px;
+                }
+            }
+        }
+    }
+}

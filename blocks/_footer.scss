@@ -1,0 +1,74 @@
+.footer {
+    margin: 20px 157px;
+
+    .footer-container {
+        .footer-container_text {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 77px;
+
+            .footer-container_text_list{
+                display: flex;
+                flex-direction: column;
+                gap: 28px;
+            }
+
+            .footer-container_text_email {
+                background-color: #F2F2F2;
+                width: 174px;
+                height: 40px;
+                border-radius: 4px;
+                display: flex;
+                gap: 0;
+
+                input[type="email"] {
+                    width: 134px;
+                    height: 40px;
+                    border-radius: 4px;
+                    background-color: transparent;
+                    padding: 13px 16px;
+                }
+
+                button {
+                    background-color: transparent;
+                    box-shadow: none;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 4px;
+                    padding: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            .footer-container_text_logo {
+                width: 236px;
+                display: flex;
+                flex-direction: column;
+                gap: 34px;
+
+                p {
+                    font-size: 30px;
+                    font-weight: 900;
+                }
+
+                img {
+                    width: 114px;
+                    height: 28px;
+                    margin-top: 30px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .footer-container_copyright {
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            padding: 40px;
+            border-top: 1px solid #EDEDED;
+        }
+    }
+}

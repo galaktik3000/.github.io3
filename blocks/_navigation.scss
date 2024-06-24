@@ -1,0 +1,30 @@
+.navigation {
+    background-color: #F2F2F2;
+
+    .navigation-container {
+        padding: 30px 158px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .navigation-container_logo {
+            p {
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+
+        .navigation-container_text {
+            ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 50px;
+            }
+        }
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
